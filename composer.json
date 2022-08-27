@@ -1,0 +1,15 @@
+{
+    "name": "rino/rino",
+    "description": "flowPHP",
+    "autoload": {
+        "psr-4": {
+            "Rino\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marstormad"
+        }
+    ],
+    "require": {}
+}

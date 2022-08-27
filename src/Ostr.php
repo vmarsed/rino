@@ -1,11 +1,11 @@
 <?php
-namespace Rino;
+namespace Marstormad\Rino;
 require_once './../vendor/autoload.php';
 class Ostr extends Adad
 {
-    use \Rino\Traits\Buildin\StringTrait;
-    use \Rino\Traits\ClassTraits\DadClassTrait;
-    use \Rino\Traits\ClassTraits\ShareStringAndArrayClassTrait;
+    use Traits\Buildin\StringTrait;
+    use Traits\ClassTraits\DadClassTrait;
+    use Traits\ClassTraits\ShareStringAndArrayClassTrait;
     protected $value = '';
 
     public function __construct($value = '')

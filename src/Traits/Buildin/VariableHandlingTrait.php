@@ -1,6 +1,6 @@
 <?php
 
-namespace Rino\Traits\Buildin;
+namespace Marstormad\Rino\Traits\Buildin;
 
 trait VariableHandlingTrait
 {

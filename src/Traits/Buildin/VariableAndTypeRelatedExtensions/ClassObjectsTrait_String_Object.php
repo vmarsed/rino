@@ -1,5 +1,5 @@
 <?php
-namespace Rino\Traits\Buildin\VariableAndTypeRelatedExtensions;
+namespace Marstormad\Rino\Traits\Buildin\VariableAndTypeRelatedExtensions;
 
 trait ClassObjectsTrait_String_Object
 {

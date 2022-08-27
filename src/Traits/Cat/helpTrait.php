@@ -1,5 +1,12 @@
 <?php
-namespace Rino\Traits\Cat;
+namespace Marstormad\Rino\Traits\Cat;
+
+use \Marstormad\Rino\Oarray;
+use \Marstormad\Rino\Obool;
+use \Marstormad\Rino\Onumber;
+use \Marstormad\Rino\Oresource;
+use \Marstormad\Rino\Ostr;
+use \Marstormad\Rino\Oobject;
 
 trait helpTrait
 {
@@ -16,19 +23,19 @@ trait helpTrait
         }
         switch (gettype($res)) {
             case 'boolean':
-                return new \Rino\Obool($res);
+                return new Obool($res);
             case 'integer':
             case 'double':
-                return new \Rino\Onumber($res);
+                return new Onumber($res);
             case 'array':
-                return new \Rino\Oarray($res);
+                return new Oarray($res);
             case 'string':
-                return new \Rino\Ostr($res);
+                return new Ostr($res);
             case 'resource':
             case 'resource (closed)':
-                return new \Rino\Oresource($res);
+                return new Oresource($res);
             case 'object':
-                return new \Rino\Oobject($res);
+                return new Oobject($res);
                 // NULL , unknown type
             default:
                 return $res;

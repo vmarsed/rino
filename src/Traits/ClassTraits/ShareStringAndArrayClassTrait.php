@@ -1,7 +1,7 @@
 <?php
-namespace Rino\Traits\ClassTraits;
+namespace Marstormad\Rino\Traits\ClassTraits;
 
 trait ShareStringAndArrayClassTrait
 {
-    use \Rino\Traits\Buildin\PregForStringAndArrayTrait;
+    use \Marstormad\Rino\Traits\Buildin\PregForStringAndArrayTrait;
 }

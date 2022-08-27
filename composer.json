@@ -1,9 +1,9 @@
 {
-    "name": "rino/rino",
+    "name": "marstormad/rino",
     "description": "flowPHP",
     "autoload": {
         "psr-4": {
-            "Rino\\": "src/"
+            "Marstormad\\Rino\\": "src/"
         }
     },
     "authors": [

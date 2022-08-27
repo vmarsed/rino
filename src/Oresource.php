@@ -1,10 +1,10 @@
 <?php
-namespace Rino;
+namespace Marstormad\Rino;
 require_once './../vendor/autoload.php';
 
 class Oresource extends Adad
 {
-    use \Rino\Traits\ClassTraits\DadClassTrait;
+    use \Marstormad\Rino\Traits\ClassTraits\DadClassTrait;
     protected $value;
     public function __construct($value)
     {

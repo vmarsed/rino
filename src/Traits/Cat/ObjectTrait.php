@@ -1,5 +1,5 @@
 <?php
-namespace Rino\Traits\Cat;
+namespace Marstormad\Rino\Traits\Cat;
 trait ObjectTrait
 {
     public function instanceof($class)

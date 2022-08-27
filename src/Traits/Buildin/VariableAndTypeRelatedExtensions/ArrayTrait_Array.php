@@ -1,6 +1,6 @@
 <?php
 
-namespace Rino\Traits\Buildin\VariableAndTypeRelatedExtensions;
+namespace Marstormad\Rino\Traits\Buildin\VariableAndTypeRelatedExtensions;
 
 /**
  * array_combine 拆成 array_combine_keys 和 array_combine_values

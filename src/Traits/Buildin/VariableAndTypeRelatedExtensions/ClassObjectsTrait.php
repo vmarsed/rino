@@ -1,5 +1,5 @@
 <?php
-namespace Rino\Traits\Buildin\VariableAndTypeRelatedExtensions;
+namespace Marstormad\Rino\Traits\Buildin\VariableAndTypeRelatedExtensions;
 
 /**
  * get_class 支持无参(静态调用,所以弄成两个)

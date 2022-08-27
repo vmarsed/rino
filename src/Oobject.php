@@ -1,11 +1,11 @@
 <?php
-namespace Rino;
+namespace Marstormad\Rino;
 require_once './../vendor/autoload.php';
 class Oobject extends Adad
 {
-    use \Rino\Traits\ClassTraits\DadClassTrait;
-    use \Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ClassObjectsTrait_Object;
-    use \Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ArrayTrait_Array_Object;
+    use \Marstormad\Rino\Traits\ClassTraits\DadClassTrait;
+    use \Marstormad\Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ClassObjectsTrait_Object;
+    use \Marstormad\Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ArrayTrait_Array_Object;
 
 
     protected $value;

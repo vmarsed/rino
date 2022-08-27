@@ -1,15 +1,15 @@
 <?php
-namespace Rino;
+namespace Marstormad\Rino;
 require_once './../vendor/autoload.php';
 
 // extends ArrayObject
 class Oarray extends Adad
 {
     // ##====== Traits Start ======## //
-    use \Rino\Traits\ClassTraits\DadClassTrait;
-    use \Rino\Traits\ClassTraits\ShareStringAndArrayClassTrait;
-    use \Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ArrayTrait;
-    use \Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ArrayTrait_Array;
+    use \Marstormad\Rino\Traits\ClassTraits\DadClassTrait;
+    use \Marstormad\Rino\Traits\ClassTraits\ShareStringAndArrayClassTrait;
+    use \Marstormad\Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ArrayTrait;
+    use \Marstormad\Rino\Traits\Buildin\VariableAndTypeRelatedExtensions\ArrayTrait_Array;
     // ##====== Traits End ======## //
 
     protected $value;

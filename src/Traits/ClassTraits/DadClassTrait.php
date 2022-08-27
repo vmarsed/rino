@@ -1,12 +1,12 @@
 <?php
 
-namespace Rino\Traits\ClassTraits;
+namespace Marstormad\Rino\Traits\ClassTraits;
 
 trait DadClassTrait
 {
-    use \Rino\Traits\Cat\helpTrait;
-    use \Rino\Traits\Cat\OutputTrait;
-    use \Rino\Traits\Buildin\VariableHandlingTrait;
+    use \Marstormad\Rino\Traits\Cat\helpTrait;
+    use \Marstormad\Rino\Traits\Cat\OutputTrait;
+    use \Marstormad\Rino\Traits\Buildin\VariableHandlingTrait;
     public function value()
     {
         return $this->value;

@@ -1,5 +1,5 @@
 <?php
-namespace Rino\Traits\Cat;
+namespace Marstormad\Rino\Traits\Cat;
 trait OutputTrait
 {
     // echo , print, printf ...

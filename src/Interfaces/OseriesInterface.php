@@ -1,5 +1,5 @@
 <?php
-namespace Rino\Interfaces;
+namespace Marstormad\Rino\Interfaces;
 interface OseriesInterface
 {
     

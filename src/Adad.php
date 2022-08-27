@@ -1,6 +1,8 @@
 <?php
 namespace Marstormad\Rino;
-use \Rino\Interfaces\OseriesInterface;
+require_once './../vendor/autoload.php';
+
+use \Marstormad\Rino\Interfaces\OseriesInterface;
 
 class Adad implements OseriesInterface
 {

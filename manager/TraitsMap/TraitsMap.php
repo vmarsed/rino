@@ -1,19 +1,29 @@
 <?php
 return array (
-  'Array' => 
+  'Oobject' => 
   array (
-    0 => '/home/vagrant/code/rino/src/Traits/Buildin/VariableAndTypeRelatedExtensions/ArrayTrait_Array_Object.php',
-    1 => '/home/vagrant/code/rino/src/Traits/Buildin/VariableAndTypeRelatedExtensions/ArrayTrait_Array.php',
+    0 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ClassObjectsTrait_Oobject;',
+    1 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ArrayTrait_Oarray_Oobject;',
+    2 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ClassObjectsStatictrait_Oobject;',
+    3 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ClassObjectsTrait_Ostr_Oobject;',
   ),
-  'Object' => 
+  'Oarray' => 
   array (
-    0 => '/home/vagrant/code/rino/src/Traits/Buildin/VariableAndTypeRelatedExtensions/ArrayTrait_Array_Object.php',
-    1 => '/home/vagrant/code/rino/src/Traits/Buildin/VariableAndTypeRelatedExtensions/ClassObjectsTrait_String_Object.php',
-    2 => '/home/vagrant/code/rino/src/Traits/Buildin/VariableAndTypeRelatedExtensions/ClassObjectsTrait_Object.php',
+    0 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ArrayTrait_Oarray_Oobject;',
+    1 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ArrayStaticTrait_Oarray;',
+    2 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ArrayTrait_Oarray;',
   ),
-  'String' => 
+  'Ostr' => 
   array (
-    0 => '/home/vagrant/code/rino/src/Traits/Buildin/VariableAndTypeRelatedExtensions/ClassObjectsTrait_String_Object.php',
-    1 => '/home/vagrant/code/rino/src/Traits/Buildin/VariableAndTypeRelatedExtensions/ClassObjectsTrait_String.php',
+    0 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ClassObjectsTrait_Ostr_Oobject;',
+    1 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ClassObjectsTrait_Ostr;',
+  ),
+  'Forall' => 
+  array (
+    0 => 'use \\Marstormad\\Rino\\Traits\\Buildin\\VariableAndTypeRelatedExtensions\\ClassObjectsStatictrait_Forall;',
+  ),
+  'Adad' => 
+  array (
+    0 => 'use \\Marstormad\\Rino\\Traits\\ClassTraits\\DadClassTrait_Adad;',
   ),
 );
